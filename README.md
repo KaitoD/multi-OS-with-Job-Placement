@@ -8,6 +8,20 @@
 
 困难：内核级别上的整体先验信息。计算节点上不会部署先验信息，需要增加额外的获取机制。
 
+## related work
+
+### Intel mOS
+
+源代码：https://github.com/intel/mOS
+
+论文：https://dl.acm.org/doi/10.1145/2612262.2612263
+
+### Cluster Management
+
+slurm：https://github.com/SchedMD/slurm
+
+openpbs: https://openpbs.org
+
 ## 目前进展
 
 2022.11.23： 整理了相关工作，完成了Intel mOS的虚拟机环境配置，使用HPCG benchmark进行了一些简单的测试来进行验证。
