@@ -37,6 +37,8 @@ Exploring the Design Space of Combining Linux with Lightweight Kernels for Extre
 
 Elasecutor: Elastic Executor Scheduling in Data Analytics Systems: https://dl.acm.org/doi/10.1145/3267809.3267818
 
+COBRA: Toward Provably Efficient Semi-Clairvoyant Scheduling in Data Analytics Systems: https://dl.acm.org/doi/10.1109/INFOCOM.2018.8485981
+
 ## 目前进展
 
 2022.11.23： 整理了相关工作，完成了Intel mOS的虚拟机环境配置，使用HPCG benchmark进行了一些简单的测试来进行验证。
