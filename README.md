@@ -35,6 +35,8 @@ Multi-objective job placement in clusters: https://dl.acm.org/doi/10.1145/280759
 
 Exploring the Design Space of Combining Linux with Lightweight Kernels for Extreme Scale Computing: https://dl.acm.org/doi/10.1145/2768405.2768410
 
+Elasecutor: Elastic Executor Scheduling in Data Analytics Systems: https://dl.acm.org/doi/10.1145/3267809.3267818
+
 ## 目前进展
 
 2022.11.23： 整理了相关工作，完成了Intel mOS的虚拟机环境配置，使用HPCG benchmark进行了一些简单的测试来进行验证。
