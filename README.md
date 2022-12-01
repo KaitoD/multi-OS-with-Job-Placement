@@ -41,4 +41,4 @@ COBRA: Toward Provably Efficient Semi-Clairvoyant Scheduling in Data Analytics S
 
 ## 目前进展
 
-2022.11.23： 整理了相关工作，完成了Intel mOS的虚拟机环境配置，使用HPCG benchmark进行了一些简单的测试来进行验证。
+详见https://github.com/KaitoD/multi-OS-with-Job-Placement/blob/main/doc/log.md
