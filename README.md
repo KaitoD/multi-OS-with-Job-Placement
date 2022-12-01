@@ -42,3 +42,5 @@ COBRA: Toward Provably Efficient Semi-Clairvoyant Scheduling in Data Analytics S
 ## 目前进展
 
 详见https://github.com/KaitoD/multi-OS-with-Job-Placement/blob/main/doc/log.md
+
+开题报告slide: https://github.com/KaitoD/multi-OS-with-Job-Placement/blob/main/doc/%E5%BC%80%E9%A2%98%E6%8A%A5%E5%91%8A-%E5%AE%89%E4%B9%8B%E8%BE%BE.pptx
