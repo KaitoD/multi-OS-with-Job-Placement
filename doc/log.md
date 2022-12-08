@@ -30,7 +30,7 @@
 
 阅读了论文：Elasecutor: Elastic Executor Scheduling in Data Analytics Systems: https://dl.acm.org/doi/10.1145/3267809.3267818 这篇文章主要介绍了在云服务器上基于硬件运行状态进行动态的执行器调度的一种弹性调度器。它对于任务所占用的硬件资源分析和信息的收集对于本项目有一定的参考价值。
 
-阅读了论文：COBRA: Toward Provably Efficient Semi-Clairvoyant Scheduling in Data Analytics Systems: https://dl.acm.org/doi/10.1109/INFOCOM.2018.8485981 这边文章介绍了一种“半千里眼”式的调度算法，根据不完全的任务先验信息进行动态的调度。这种设计思路对于本项目关于如何使用粗粒度的先验信息进行任务分发有一定的参考价值。
+阅读了论文：COBRA: Toward Provably Efficient Semi-Clairvoyant Scheduling in Data Analytics Systems: https://dl.acm.org/doi/10.1109/INFOCOM.2018.8485981 这篇文章介绍了一种“半千里眼”式的调度算法，根据不完全的任务先验信息进行动态的调度。这种设计思路对于本项目关于如何使用粗粒度的先验信息进行任务分发有一定的参考价值。
 
 制作开题报告PPT。
 
@@ -47,3 +47,27 @@
 1. 继续搭建分布式的虚拟机环境，尝试配置slurm。
 2. 继续调研阅读关于集群任务分发的论文，具体可以尝试从云计算领域收集。
 3. 整理文献作为reading list。
+
+## 2022.12.8
+
+### 目前进展
+
+在虚拟机上成功配置了slurm，基于分布式环境（两台虚拟机的局域网连接）进行了测试。
+
+阅读了论文：SPIN: BSP Job Scheduling With Placement-Sensitive Execution: https://dl.acm.org/doi/pdf/10.1109/TNET.2021.3087221 这篇文章介绍了在面对特定的HPC任务（BSP）时，如何通过分发调度来解决其运行时的同步、局部性、先验信息缺失等问题，因此对于本项目如何基于较少的任务先验信息进行分发决策有比较重要的参考价值。
+
+调整了开题报告PPT，主要将相关论文部分转移到了最后进行一笔带过，增加了对于课题技术问题以及个人工作目标的分析。
+
+### 问题
+
+mOS和slurm不是很好一起配置，尤其是在虚拟环境上。
+
+### 解决方案
+
+如果可能的话直接使用云服务器来进行slurm和mOS的结合实验，也能获得更好的性能数据。可以考虑去找一下网上的一些云服务器租赁。目前考虑先进行调研工作，后续直接使用华为提供的环境进行测试。
+
+### 下周计划
+
+1. 继续调研阅读关于集群任务分发的论文，具体可以尝试从云计算、高性能计算领域收集。
+2. 整理文献作为reading list。
+3. 完善开题PPT。
