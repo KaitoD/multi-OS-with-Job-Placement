@@ -39,6 +39,8 @@ Elasecutor: Elastic Executor Scheduling in Data Analytics Systems: https://dl.ac
 
 COBRA: Toward Provably Efficient Semi-Clairvoyant Scheduling in Data Analytics Systems: https://dl.acm.org/doi/10.1109/INFOCOM.2018.8485981
 
+SPIN: BSP Job Scheduling With Placement-Sensitive Execution: https://dl.acm.org/doi/pdf/10.1109/TNET.2021.3087221
+
 ## 目前进展
 
 详见https://github.com/KaitoD/multi-OS-with-Job-Placement/blob/main/doc/log.md
